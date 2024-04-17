@@ -49,3 +49,48 @@ footer{
         display: none;
     }
   }
+
+  main{
+    border: solid;
+    display: flex;
+    height: 95vh;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+   /* start menu css */
+.start{
+    display: flex;
+    /* opacity: 0; */
+    /* position: absolute; */
+    align-items: center;
+    background: white;
+    justify-content: center;
+    border:  solid;
+
+    padding: 20px;
+}
+.start .left{
+    background: white;
+
+}
+.left li{
+    list-style:  none;
+    margin: 20px;
+}
+.right ul :nth-child(1){
+    margin-bottom: 40px;
+
+}
+.start .right{
+    color: white;
+    background: rgb(84, 84, 112);
+    padding-right: 40px;
+    border-radius: 9px ;
+
+}
+.right li{
+    margin: 20px;
+    list-style: none;
+
+}
