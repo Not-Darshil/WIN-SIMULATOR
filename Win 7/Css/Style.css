@@ -68,6 +68,7 @@ footer{
     justify-content: center;
     border:  solid;
 
+
     padding: 20px;
 }
 .start .left{
@@ -93,4 +94,33 @@ footer{
     margin: 20px;
     list-style: none;
 
+}
+
+#Explorer{
+    border: solid;
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    bottom: 0;
+    right: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 5rem;
+    padding: 20px;
+    background: rgb(15, 85, 131);
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+}
+.inner{
+    border: solid;
+    height: inherit;
+    width: inherit;
+    background: white;
 }

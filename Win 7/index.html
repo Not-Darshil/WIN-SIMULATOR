@@ -21,13 +21,27 @@
             <img src="https://www.eightforums.com/attachments/recycle_bin_empty-png.40964/" width="50" alt="">
             <caption>Recyle Bin</caption>
         </section>
+        <section id="Explorer" style="display: none;">
+              <div class="top">
+                <button style="background: blue ; color: white;">-</button><button style="background: blue; color: white;">M</button><button onclick="close()" style="background: red; color: white;">X</button>
+              </div>  
+            <div class="inner">
+                    <h1>
+                        Well this is still a nice thing
+
+                    </h1>
+                    <h2>
+                        <li>Binod</li>
+                    </h2>
+            </div>
+        </section>
         <section id="hiddenSection" style="opacity: 0;">
             <div class="start">
                 <div class="left">
                     <ul>
-                        <li>
-                            Sticky Notes
-                        </li>
+                         <a href="#" id="show" onclick="handleClick()">
+                            nice
+                         </a>
                         <li> Chrome</li>
                         <li>Paint</li>
                     </ul>
@@ -68,6 +82,24 @@
         </div>
     </footer>
     <script src="./Js/Script.js"></script>
+    <script>
+  
+        
+const OpenExplorer = document.querySelector("#show");
+function handleClick() {
+            const explorer = document.querySelector("#Explorer");
+
+            if(explorer.style.display === "none"){
+                explorer.style.display = "flex";
+            }
+            else{
+                explorer.style.display = "none";
+            }
+            
+        }
+
+
+    </script>
 </body>
 
 </html>
